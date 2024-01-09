@@ -1,0 +1,89 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  background-color: #DDDDDD;
+}
+
+.list-card{
+  margin: 100px auto 0;
+  width: 480px;
+  box-shadow: 10px 10px 10px 10px rgba(0,0,0,0.05);
+  border-radius: 25px;
+}
+
+.head{
+  height: 130px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  background-color: white;
+  border-bottom: solid 5px #DDDDDD;
+  border-top-right-radius: 25px;
+  border-top-left-radius: 25px;
+}
+
+.box{
+  width: 15px;
+  height: 40px;
+  background-color: #FF1393;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.my-list{
+  font-size: 40px;
+  color: #FF1393;
+}
+
+.content{
+  background-color: #EFEFEF;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  padding: 40px 0;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.list{
+  font-size: 20px;
+  width: 400px;
+  border: 6px solid #AAAAAA;
+  border-radius: 10px;
+  padding: 15px;
+}
+
+.footer{
+  width: 480px;
+  margin: 10px auto;
+}
+
+.line{
+  font-size: 20px;
+  color: #AAAAAA;
+  letter-spacing: 5px;
+  display: flex;
+  align-items: center;
+}
+
+.line::before{
+  margin: 0 10px;
+  background: #AAAAAA;
+  height: 2px;
+  content: "";
+  flex-grow:1;
+  font-size: 0;
+  line-height: 0;
+}
+
+.line::after{
+  margin: 0 10px;
+  background: #AAAAAA;
+  height: 2px;
+  content: "";
+  flex-grow:1;
+  font-size: 0;
+  line-height: 0;
+}
