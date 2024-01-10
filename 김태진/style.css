@@ -1,0 +1,89 @@
+* {
+  margin: initial;
+  padding: initial;
+}
+
+li {
+  list-style-type: none;
+}
+
+body {
+  background-color: #ddd;
+}
+
+.container {
+  width: 480px;
+  margin: 100px auto 0;
+}
+
+.main {
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.1);
+}
+
+.main-header {
+  background-color: #fff;
+  border-bottom: 5px solid #ddd;
+  padding: 40px 0;
+}
+
+.main-title {
+  color: #ff1493;
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.main-title::before {
+  content: "";
+  width: 15px;
+  background-color: currentColor;
+  height: 40px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+
+.main-contents {
+  padding: 35px;
+  background-color: #efefef;
+}
+
+.main-item {
+  border: 5px solid #aaa;
+  background-color: #fff;
+  padding: 12px;
+  border-radius: 10px;
+  transition: margin 0.2s;
+}
+
+.main-item + .main-item {
+  margin-top: 15px;
+}
+
+.main-item:hover {
+  color: royalblue;
+  border-color: currentColor;
+  margin-right: -10px;
+  margin-left: -10px;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #aaa;
+  letter-spacing: 7px;
+  text-indent: 7px;
+  margin-top: 10px;
+}
+
+.footer::before,
+.footer::after {
+  content: " ";
+  height: 1px;
+  background-color: #aaa;
+  flex-grow: 1;
+}
