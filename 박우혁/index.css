@@ -1,0 +1,94 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin-top: 8%;
+  background-color: #dddddd;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card{
+  width: 480px;
+  border: none;
+  border-radius: 30px;
+  box-shadow:  4px 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+header{
+  background-color: #fff;
+  color: #FF1F95;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap:15px;
+}
+
+.tag{
+  background-color: #FF1F95;
+  height: 40px;
+  width: 10px;
+  border-radius: 0 5px 5px 0;
+  margin-top: 5px;
+}
+
+.divide_line{
+  height: 5px;
+  background-color: #ECECEC;
+}
+
+section{
+  background-color: #EFEFEF;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap:18px;
+  position: relative;
+}
+
+
+
+
+.content{
+  background-color: #fff;
+  border: 5px solid #AAAAAA;
+  border-radius: 8px;
+  padding: 8px;
+  transition: transform 0.3s ease;
+}
+
+.content:hover{
+  transform: scale(1.1); 
+  color: blue;
+  border-color: blue;
+}
+
+.discription{
+  margin: 10px 10px;
+}
+
+.end_line{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #C4C4C4;
+  font-weight: lighter;
+  width: 480px;
+}
+
+.line{
+  width: 170px;
+  border-color: #C4C4C4;
+}
+
+.Bucket_list{
+  letter-spacing: 3px;
+}
