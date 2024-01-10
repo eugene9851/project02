@@ -66,6 +66,7 @@ section {
 .contents-item:hover {
   transform: scale(1.1);
   border-color: #6bc8ff;
+  color: #6bc8ff;
 }
 
 footer {
